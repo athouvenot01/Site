@@ -1,10 +1,10 @@
 
 body {
-	background-image: url('images/fond_bois.png');
+	background-image: url('images/fond_bois2.png');
     background-color: rgba(255, 255, 255, 0.1);
     background-blend-mode: overlay;
-	background-size: cover; 
-	background-position: center; 
+	background-size: cover;
+	/*background-position: center;*/ 
     background-repeat: no-repeat;
 }
 
@@ -35,10 +35,11 @@ nav ul li {
 
 nav ul li a {
     vertical-align: middle;
-    padding: 2px;
+    padding: 15px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: rgba(60, 34, 24, 0.736);
+    font-size: 3vw;
 }
 
 
@@ -59,8 +60,10 @@ nav ul li a {
 footer {
     position: absolute;
     bottom: 1%;
-    width: 99%;
+    width: 98% /*98vw*/;
     text-align: center;
+    left: 50%; /* Déplace le pied de page à 50% de la largeur de son conteneur */
+    transform: translateX(-50%); /* Centre horizontalement le pied de page */
     background-color: rgba(255, 255, 255, 0.336);
 }
 
