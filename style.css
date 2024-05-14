@@ -1,6 +1,3 @@
-/*body {
-	background-color: rgb(136, 213, 92);
-}*/
 
 body {
 	background-image: url('images/fond_bois.png');
@@ -11,140 +8,69 @@ body {
     background-repeat: no-repeat;
 }
 
+
 header {
-    margin-top: 90px;
-    text-align: center;
-    border: 1px solid black;
-    margin: 1%;
-    color: rgba(255, 255, 255, 0.247); 
-    text-shadow: rgba(255, 255, 255, 0.247);
-    background-image: url("images/fond_bois.jpg");
-    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.336);
+    padding: 20px;                 /* Bordures intérieures */
 }
+
 
 nav {
-    margin-left: 5%;
-    width: 18%;
-    padding: 1%;
-    background-color: rgba(255, 255, 255, 0.247);;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
 }
 
-section {
-    float: right;
-    margin-right: 5%;
-    margin-bottom: 10px;
-    width: 66%;
-    border: 1px solid black;
-    padding: 1%;
-    background-color: white;
+
+nav ul {
+    list-style-type: none;          /* Enlève les puces */
 }
+
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Pour ajouter un espacement entre les éléments */
+    vertical-align: middle;
+}
+
+
+nav ul li a {
+    vertical-align: middle;
+    padding: 2px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(60, 34, 24, 0.736);
+}
+
+
+/*nav ul li a img {
+    vertical-align: middle;
+    padding: 2px;
+    background-color: transparent;
+    margin-left: 0;
+}*/
+
+
+.container {
+    position: relative;
+    min-height: 100vh; /* Pour que le conteneur s'étende sur toute la hauteur de la fenêtre */
+}
+
 
 footer {
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 1%;
-    float: bottom;
-    padding: 0,5%;
-    text-align: right;
-    border: 1px solid black;
-    background-color: rgba(255, 255, 255, 0.247);
-    font-family: verdana;
+    position: absolute;
+    bottom: 1%;
+    width: 98%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.336);
 }
 
-h4 {
-	font-weight: bold;
-	color: #00A8DD;
-	text-decoration: underline;
-	text-shadow: 0.1em 0.1em #AAEBFF;
-	font-family: verdana;
-}
-
-h2 {
-	text-shadow: 0 0 0.2em #1DCAFF, 0 0 0.2em #1DCAFF;
-	font-family: verdana;
-	text-align: center;
-}
-
-mark {
-	background: #7ADFFF	;
-	color: black;
-	font-family: verdana;
-}
-
-p {
-	font-weight: normal;
-	text-align: justify;
-	font-family: verdana;
-}
-
-ul {
-	font-weight: normal;
-	font-family: verdana;
-}
-
-table {
-	text-align: left;
-	border: 1px black solid;
-	border-collapse: collapse;
-	margin: auto;
-}
-
-caption {
-	margin-bottom: 5px;
-	color: #FF0097;
-	text-shadow: #909497 0.1em 0.1em 0.2em;
-	font-family: verdana;
-}
 
 a {
-	color: black;
-	font-family: verdana;
+    color: rgb(252, 252, 252);
 }
+
 
 a:hover {
-	color: #7ADFFF;
+	color: #000000;
 }
 
-.exemple {
-	margin-left: 0;
-}
-
-
-
-th {
-	font-weight: strong;
-	padding: 3px;
-	font-family: verdana;
-}
-
-
-td {
-	font-weight: normal;
-	padding: 3px;
-	font-family: verdana;
-}
-
-
-.bas {
-	float: right;
-	margin-right: 5%;
-	text-decoration: none;
-	border: 1px black solid;
-	padding: 1px;
-}
-
-.penser {
-	float: right;
-	margin-right: 10%;
-}
-
-
-.droite {
-	float: right;
-	margin-right: 5%;
-}
-	
-.gauche {
-	float: left;
-	margin-left: 5%;
-}
