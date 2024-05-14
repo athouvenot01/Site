@@ -3,8 +3,8 @@
 }*/
 
 body {
-	background-image: url('images/fond-guitare.png');
-    background-color: rgba(255, 255, 255, 0.3);
+	background-image: url('images/fond_bois.png');
+    background-color: rgba(255, 255, 255, 0.1);
     background-blend-mode: overlay;
 	background-size: cover; 
 	background-position: center; 
