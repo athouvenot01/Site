@@ -65,19 +65,19 @@ footer {
     left: 50%; /* Déplace le pied de page à 50% de la largeur de son conteneur */
     transform: translateX(-50%); /* Centre horizontalement le pied de page */
     background-color: rgba(255, 255, 255, 0.336);
-    padding-top: 10px;
+    padding-top: 6px;
 }
 
 
 footer a {
-    margin-left: 10px;
+    margin-left: 6px;
 }
 
 
 footer a img {
-    height: 40px;
+    height: 50px;
     width: auto;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
 }
 
 
