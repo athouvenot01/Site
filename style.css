@@ -57,13 +57,13 @@ nav ul li a {
 }
 
 main img {
-    height: 600px;
+    height: 700px;
     width: auto;
 }
 
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 1%;
     width: 98% /*98vw*/;
     text-align: left;
