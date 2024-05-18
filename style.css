@@ -56,6 +56,11 @@ nav ul li a {
     min-height: 100vh; /* Pour que le conteneur s'étende sur toute la hauteur de la fenêtre */
 }
 
+main img {
+    height: 400px;
+    width: auto;
+}
+
 
 footer {
     position: absolute;
