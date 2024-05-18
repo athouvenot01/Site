@@ -63,7 +63,7 @@ main img {
 
 
 footer {
-    position: relative;
+    position: absolute;
     bottom: 1%;
     width: 98% /*98vw*/;
     text-align: left;
