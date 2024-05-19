@@ -11,9 +11,9 @@ body {
 header {
     position: relative; 
     background-color: rgba(255, 255, 255, 0.336);
-    padding: 1vh;                 /* Bordures intérieures */
-    width: 95vw;
-    left: 50%; /* Déplace le pied de page à 50% de la largeur de son conteneur */
+    padding: 8px;                 /* Bordures intérieures */
+    width: 93vw;
+    left: 50%; 
     transform: translateX(-50%);
 }
 
@@ -21,28 +21,32 @@ header {
 nav {
     background-color: rgba(255, 255, 255, 0);
     text-align: center;
+    justify-content: center;
 }
 
 
 nav ul {
     list-style-type: none;          /* Enlève les puces */
+    justify-content: center;
 }
 
 
 nav ul li {
     display: inline-block;
-    margin-right: 20px; /* Pour ajouter un espacement entre les éléments */
     vertical-align: middle;
 }
 
 
 nav ul li a {
     vertical-align: middle;
-    padding: 15px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 1vw;
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: rgba(60, 34, 24, 0.736);
     font-size: 3vw;
+    border-radius: 4px;
 }
 
 
@@ -69,6 +73,7 @@ main {
     margin-bottom: 4vh;
     margin-left: 8vw;
     margin-right: 8vw;
+    height: 60%;
 }
 
 
